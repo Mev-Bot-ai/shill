@@ -1,0 +1,174 @@
+---
+
+api_id: 20551432
+api_hash: cbdc5d108da6f06a3ebf39f88ae373ef
+app_short_name: hjDeDT4b
+phone_number: "+1 672 772 7483"
+# this has to be in quotes to ensure it is treated as a string
+# e.g. phone_number: "+18888675309"
+
+splay: 7
+# configurable randomness of when channels connect and messages are sent;
+# we recommend increasing this number when connecting to many (10+)
+# channels to avoid the dreaded FloodWaitError; it is preferable to use
+# prime numbers for maximum randomness
+
+messages:
+  one: |
+   ⬆️ UPRISE | $UP ⬆️
+
+   🛟 SAFE + LOCKED + RENOUNCED 
+  
+   🆙 RISE AI Technology
+   🆙 Website Live
+   🆙 Utility Live 
+   🟣 Long Term Project
+
+   🗯 Telegram @UprisePortal
+
+  two: |
+   ⬆️ UPRISE | $UP ⬆️
+
+   🛟 SAFE + LOCKED + RENOUNCED 
+  
+   🆙 RISE AI Technology
+   🆙 Website Live
+   🆙 Utility Live 
+   🟣 Long Term Project
+
+   🗯 Telegram @UprisePortal
+raid:
+  UniswapGemGroup:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 5
+  RobLounge:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 5
+  bscsimpers:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 5
+  CryptoApeStars:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 5
+  VincentDCrypto:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    # this is in seconds, so the below example is equal to 1 minute
+    increase_wait_interval: 60
+    # a channel can limit the total number of messages sent, so the below example will send a maximum of 10 messages
+    total_messages: 10
+  seadoggs:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 5
+  Cryptopicks:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 5
+  chatBSC:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 5
+  gemtalks:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 5
+  bscsafesnipershill:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 5
+  Saudishill:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 5
+  neverscamagain:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 5
+  paiNcallsbr:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 5
+  Shillvillebsc:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 5
+  DegenHunters1:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 5
+  moneyshiill:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 5
+  earlyapes:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 5
+  shillgrow:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 5
+  whalevomitdisc:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 5
+  Pumpchads:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 5
+  Pumpchads:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 5
+  bezoscallsdiscussionn:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 5
+     # this assumes the image's path is relative to the script `tg_shill_bot.py`
+########################################################
+### !! DANGER ZONE !!
+### >> only config below if you know what you are doing
+########################################################
+# this is a Python lambda function -- it is used to construct a formatted message that
+# takes 2 inputs (random message 1 & random message 2) and returns a single string that
+# is appened to your primary message
+# this lambda will be eval'ed during runtime, so please becareful and know what you are doing
+# before modifying
+random_message_format: |
+  lambda rm1, rm2 : rm1 + " & " + rm2 + "!"
+
+# this is a list of random "thank yous" that will be used to create a random message
+# that will be appended to your primary message to avoid TG banning -- SEE FAQs
+random_message:
+- LFG
+- MEV AI
+- LISTED ON DAPP RADAR
+- COME USE MEV GPT
+- UTILITY LIVE

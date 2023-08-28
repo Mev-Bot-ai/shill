@@ -137,7 +137,6 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-settings.yml
 .DS_Store
 *.session
 *.session-journal
