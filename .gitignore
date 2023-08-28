@@ -138,7 +138,5 @@ dmypy.json
 cython_debug/
 
 .DS_Store
-*.session
-*.session-journal
 .vscode
 .python-version
